@@ -13,6 +13,7 @@ public class IntDivider {
         } else if (antrasSkaicius == 0) {
             throw new ArgumentIsZeroException("Antras");
         }
+
         return pirmasSkaicius / antrasSkaicius;
     }
 }
